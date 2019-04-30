@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Dice Gambling</title>
+    <link rel="stylesheet" href="Dice.css">
+    <script src="Dice.js"></script>
+</head>
+
+<body>
+    <div class="text-center" id="box">
+        <header>
+            <h1> Dice Gambling</h1>
+            <h2> Enter value(s) of dice rolls<h2>
+        </header>
+        <div id="message"></div>
+        <ul id="gameBoard">
+            <input type="text" id="inputfield" placeholder="1,2,3" required>
+
+        </ul>
+        <div class="clearfix"></div>
+        <footer>
+            <button id="reset" onclick="getSumOfRolls()">Check Result</button>
+        </footer>
+    </div>
+    <div class="displayResult" id="display">
+        <h3 id="showResult">Result will be displayed here. . .</h3>
+    </div>
+
+</body>
+
+</html>
